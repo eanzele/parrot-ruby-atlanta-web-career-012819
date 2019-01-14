@@ -2,6 +2,7 @@
 # returns the phrase
 
 def parrot (cry = "Squawk!")
-  puts `This animal #{cry} is annoying`
+  puts cry
+  return cry
 end
   
